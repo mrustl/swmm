@@ -1,0 +1,23 @@
+Package: swmm
+Title: R Package for Compiling C Source Code of EPA`s Stormwater
+    Management Model (SWMM)
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Michael",
+             family = "Rustler",
+             role = c("aut", "cre"),
+             email = "michael.rustler@kompetenz-wasser.de",
+             comment = c(ORCID = "0000-0003-0647-7726")),
+      person(given = "Kompetenzzentrum Wasser Berlin gGmbH (KWB)",
+             role = "cph"))
+Description: R package for compiling C source code of EPA`s
+    Stormwater Management Model (SWMM).
+License: MIT + file LICENSE
+URL: https://github.com/KWB-R/swmm
+BugReports: https://github.com/KWB-R/swmm/issues
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    covr
